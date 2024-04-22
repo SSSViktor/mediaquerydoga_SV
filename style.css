@@ -1,0 +1,49 @@
+header,footer{
+    background-color: #b588e7;
+    height: 80px;
+    width: 100%;
+}
+#container{
+    margin: 0 auto;
+    border: 3px solid turquoise;
+    text-align: center;
+    height: 400px;
+    width: 600px;
+}
+#sidebar{
+    background-color: #e3b957;
+    height: 240px;
+    width: 200px;
+}
+#all{
+    display: inline-flex;
+}
+#lilcont{
+    display: flex;
+}
+#main{
+    background-color: #a7dc8a;
+    width: 400px;
+    height: 160px;
+}
+#widget{
+    background-color: #eb867c;
+    width: 200px;
+    height: 80px;
+}
+#statistics{
+    background-color: #91b7e8;
+    width: 200px;
+    height: 80px;
+}
+@media only screen and (max-width: 600px){
+    #lilcont{
+        display: block;
+    }
+    #all{
+        display: block;
+    }
+    #container{
+        width: 600px;
+    }
+}
