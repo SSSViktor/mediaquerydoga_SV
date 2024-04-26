@@ -37,6 +37,9 @@ header,footer{
     height: 80px;
 }
 @media only screen and (max-width: 600px){
+    header{
+        height: 40px;
+    }
     #lilcont{
         display: block;
     }
@@ -45,5 +48,25 @@ header,footer{
     }
     #container{
         width: 600px;
+        height: auto;
+    }
+    #sidebar{
+        width: auto;
+        height: 40px;
+    }
+    #main{
+        width: auto;
+        height: 70px;
+    }
+    #widget{
+        width: auto;
+        height: 50px;
+    }
+    #statistics{
+        width: auto;
+        height: 50px;
+    }
+    footer{
+        height: 40px;
     }
 }
